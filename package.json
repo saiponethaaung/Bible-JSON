@@ -1,0 +1,19 @@
+{
+    "name": "bible-json",
+    "version": "1.0.0",
+    "description": "Bible Json",
+    "devDependencies": {},
+    "scripts": {},
+    "author": "Sai Pone THa Aung",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/saiponethaaung/Bible-JSON"
+    },
+    "engines": {
+        "node": "v20.15.1"
+    },
+    "dependencies": {
+        "usfm-parser": "^0.1.6"
+    }
+}
