@@ -4,7 +4,7 @@ This is a JSON collection of the Bible.
 
 ## Folder Structure
 
-`bibles/{languges}/{version}/{type}`
+`bible/languages/{languges}/{version}/{type}`
 
 - languges: bible language are Alpha-3 country code in lowercase
 - version: bible version such as KJV, etc
