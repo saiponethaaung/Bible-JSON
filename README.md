@@ -1,4 +1,4 @@
-# BIBLE JSON
+# Bible JSON
 
 This is a JSON collection of the Bible.
 
