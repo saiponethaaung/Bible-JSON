@@ -2,7 +2,10 @@
     "mmr": {
         "name": "Myanmar",
         "versions": [
-            "judson"
+            {
+                "version": "judson",
+                "name": "Judson"
+            }
         ]
     }
 }
