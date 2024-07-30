@@ -4,7 +4,11 @@
         "versions": [
             {
                 "version": "judson",
-                "name": "Judson"
+                "name": "Judson",
+                "translations": {
+                    "oldTestament": "ဓမ္မဟောင်း‌ကျမ်း",
+                    "newTestament": "ဓမ္မသစ်ကျမ်း"
+                }
             }
         ]
     }
