@@ -1,6 +1,7 @@
 {
     "mmr": {
         "name": "Myanmar",
+        "code": "myanmar",
         "versions": [
             {
                 "version": "judson",
