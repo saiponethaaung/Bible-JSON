@@ -9,6 +9,36 @@
                 "translations": {
                     "oldTestament": "ဓမ္မဟောင်း‌ကျမ်း",
                     "newTestament": "ဓမ္မသစ်ကျမ်း"
+                },
+                "oldTestament": {
+                    "start": 1,
+                    "end": 39
+                },
+                "newTestament": {
+                    "start": 40,
+                    "end": 66
+                }
+            }
+        ]
+    },
+    "eng": {
+        "name": "English",
+        "code": "english",
+        "versions": [
+            {
+                "version": "kjv",
+                "name": "King James Version",
+                "translations": {
+                    "oldTestament": "Old Testiment",
+                    "newTestament": "New Testiment"
+                },
+                "oldTestament": {
+                    "start": 1,
+                    "end": 53
+                },
+                "newTestament": {
+                    "start": 54,
+                    "end": 80
                 }
             }
         ]
