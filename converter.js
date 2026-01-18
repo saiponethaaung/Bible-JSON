@@ -3,15 +3,15 @@ const path = require("path");
 var usfm = require("usfm-parser");
 
 async function main() {
-  const language = "myanmar";
-  const version = "judson";
+  const language = "english";
+  const version = "kjv";
   const directory = path.join(
     __dirname,
-    `bible/languages/${language}/${version}`
+    `bible/languages/${language}/${version}`,
   );
   const directoryUsfm = path.join(
     __dirname,
-    `bible/languages/${language}/${version}/usfm`
+    `bible/languages/${language}/${version}/usfm`,
   );
   const files = await fs.readdirSync(directoryUsfm);
   let books = [];
@@ -27,19 +27,19 @@ async function main() {
     const bookNumber = counter++;
     await fs.writeFileSync(
       path.join(directory, `json/${bookNumber}.json`),
-      JSON.stringify(usfmJSON)
+      JSON.stringify(usfmJSON, 2),
     );
-    headers[bookNumber] = usfmJSON['headers']['h'];
+    headers[bookNumber] = usfmJSON["headers"]["h"];
   }
 
   await fs.writeFileSync(
     path.join(directory, `books.json`),
-    JSON.stringify(headers)
+    JSON.stringify(headers, 2),
   );
 
   await fs.writeFileSync(
     path.join(directory, "bible.json"),
-    JSON.stringify([books])
+    JSON.stringify([books], 2),
   );
 }
 
