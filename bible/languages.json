@@ -42,5 +42,49 @@
         }
       }
     ]
+  },
+  "kor": {
+    "name": "한국어",
+    "code": "korea",
+    "versions": [
+      {
+        "version": "krv",
+        "name": "Korean Revised Version",
+        "translations": {
+          "oldTestament": "구약",
+          "newTestament": "신약"
+        },
+        "oldTestament": {
+          "start": 1,
+          "end": 39
+        },
+        "newTestament": {
+          "start": 40,
+          "end": 66
+        }
+      }
+    ]
+  },
+  "fra": {
+    "name": "Français",
+    "code": "french",
+    "versions": [
+      {
+        "version": "lsg",
+        "name": "Louis Segond",
+        "translations": {
+          "oldTestament": "Ancien Testament",
+          "newTestament": "Nouveau Testament"
+        },
+        "oldTestament": {
+          "start": 1,
+          "end": 39
+        },
+        "newTestament": {
+          "start": 40,
+          "end": 66
+        }
+      }
+    ]
   }
 }
