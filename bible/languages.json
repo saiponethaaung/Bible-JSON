@@ -40,6 +40,22 @@
           "start": 54,
           "end": 80
         }
+      },
+      {
+        "version": "web",
+        "name": "World English Bible",
+        "translations": {
+          "oldTestament": "Old Testament",
+          "newTestament": "New Testament"
+        },
+        "oldTestament": {
+          "start": 1,
+          "end": 39
+        },
+        "newTestament": {
+          "start": 40,
+          "end": 66
+        }
       }
     ]
   },
@@ -75,6 +91,88 @@
         "translations": {
           "oldTestament": "Ancien Testament",
           "newTestament": "Nouveau Testament"
+        },
+        "oldTestament": {
+          "start": 1,
+          "end": 39
+        },
+        "newTestament": {
+          "start": 40,
+          "end": 66
+        }
+      }
+    ]
+  },
+  "chin": {
+    "name": "Chin",
+    "code": "chin",
+    "versions": [
+      {
+        "version": "khumi",
+        "name": "Asang Khongca Bible (2019)",
+        "translations": {
+          "oldTestament": "Old Testament",
+          "newTestament": "New Testament"
+        },
+        "oldTestament": {
+          "start": 1,
+          "end": 39
+        },
+        "newTestament": {
+          "start": 40,
+          "end": 66
+        }
+      },
+      {
+        "version": "daai",
+        "name": "Daai Chin New Testament",
+        "translations": {
+          "oldTestament": "Old Testament",
+          "newTestament": "New Testament"
+        },
+        "oldTestament": {
+          "start": 1,
+          "end": 24
+        },
+        "newTestament": {
+          "start": 25,
+          "end": 27
+        }
+      },
+      {
+        "version": "matubi",
+        "name": "Matupi Chin Standard Bible",
+        "translations": {
+          "oldTestament": "Old Testament",
+          "newTestament": "New Testament"
+        },
+        "oldTestament": {
+          "start": 1,
+          "end": 56
+        },
+        "newTestament": {
+          "start": 57,
+          "end": 83
+        }
+      },
+      {
+        "version": "siyin",
+        "name": "Siyin Chin New Testament",
+        "translations": {
+          "oldTestament": "Old Testament",
+          "newTestament": "New Testament"
+        },
+        "newTestament": {
+          "start": 1,
+          "end": 27
+        }
+      },
+      {
+        "version": "thaiphum",
+        "name": "Thai Phum Holy Bible",
+        "translations": {
+          "oldTestament": "Old Testament",
+          "newTestament": "New Testament"
         },
         "oldTestament": {
           "start": 1,
