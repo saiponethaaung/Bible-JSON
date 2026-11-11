@@ -184,5 +184,49 @@
         }
       }
     ]
+  },
+  "rus": {
+    "name": "Russian",
+    "code": "russian",
+    "versions": [
+      {
+        "version": "rsb",
+        "name": "Синодальный перевод",
+        "translations": {
+          "oldTestament": "Ветхий Завет",
+          "newTestament": "Новый Завет"
+        },
+        "oldTestament": {
+          "start": 1,
+          "end": 39
+        },
+        "newTestament": {
+          "start": 40,
+          "end": 66
+        }
+      }
+    ]
+  },
+  "jpn": {
+    "name": "Japanese",
+    "code": "japanese",
+    "versions": [
+      {
+        "version": "jfb",
+        "name": "Jfb",
+        "translations": {
+          "oldTestament": "旧約聖書",
+          "newTestament": "新約聖書"
+        },
+        "oldTestament": {
+          "start": 1,
+          "end": 39
+        },
+        "newTestament": {
+          "start": 40,
+          "end": 66
+        }
+      }
+    ]
   }
 }
